@@ -16,18 +16,18 @@ class kolom extends StatelessWidget {
                 decoration: BoxDecoration(
                   border: Border(
                     top: BorderSide(
-                      color: Colors.blueAccent,
+                      color: Colors.pinkAccent,
                     ),
                     left: BorderSide(
-                      color: Colors.blueAccent,
+                      color: Colors.pinkAccent
                     ),
                     bottom: BorderSide(
-                      color: Colors.blueAccent,
+                      color: Colors.pinkAccent,
                     ),
                   ),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://cdn.images.express.co.uk/img/dynamic/67/590x/Diego-Costa-suspended-744596.jpg"),
+                        "https://6.viki.io/image/8d6ad09eb2d14d27b463b7099c04fa77.jpeg?s=900x600&e=t"),
                     fit: BoxFit.fill,
                   ),
                 ),
@@ -60,7 +60,7 @@ class kolom extends StatelessWidget {
                     right: 10.0,
                   ),
                   child: Text(
-                    "Costa bilang wasit untungkan madrid, koeman tepok jidat",
+                    "True Beauty K-Drama yang trending di tahun 2021",
                     style: TextStyle(fontSize: 12, color: Colors.black),
                   ),
                 ),
@@ -88,7 +88,7 @@ class kolom extends StatelessWidget {
             padding: EdgeInsets.only(
               left: 20.0,
             ),
-            child: Text("Barcelona Feb 13, 2021",
+            child: Text("Korea Feb 22, 2021",
                 style: TextStyle(fontSize: 12, color: Colors.black)),
           ),
         ),

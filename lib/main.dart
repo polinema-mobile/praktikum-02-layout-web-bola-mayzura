@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
                   text: "Berita Terbaru",
                 ),
                 Tab(
-                  text: "Pertandingan Hari Ini",
+                  text: "Trending Hari Ini",
                 ),
               ],
             ),

@@ -11,7 +11,7 @@ class image extends StatelessWidget {
           alignment: Alignment.bottomLeft,
           child: Padding(
             padding: EdgeInsets.only(left: 20.0, bottom: 15.0),
-            child: Text("Transfer",
+            child: Text("Trending Topik",
                 style: TextStyle(fontSize: 14, color: Colors.black)),
           ),
         ),
@@ -21,7 +21,7 @@ class image extends StatelessWidget {
           alignment: Alignment.bottomCenter,
           child: Padding(
             padding: EdgeInsets.only(bottom: 10.0),
-            child: Text("Costa mendekat ke palmeiras",
+            child: Text("True Beauty Korean Drama tahun 2021",
                 style: TextStyle(fontSize: 18, color: Colors.black)),
           ),
         ),
@@ -42,7 +42,7 @@ class image extends StatelessWidget {
             image: DecorationImage(
               fit: BoxFit.cover,
               image: NetworkImage(
-                  "https://i2-prod.football.london/incoming/article19603985.ece/ALTERNATES/s615/1_GettyImages-1292162465.jpg"),
+                  "https://miro.medium.com/max/1200/1*LZO1qrWCDWDsiMQV6BKGYA.jpeg"),
             ),
           ),
         ),
